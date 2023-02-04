@@ -4,7 +4,7 @@ pipeline {
             sh 'yarn build'
         }
         stage('Deploy') {
-            echo 'Starting deployment...'
+            echo 'Starting deployment...' 
         }
     }
 }
